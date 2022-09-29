@@ -2,6 +2,7 @@
 //var myfirstvar = "Tuong";
 //var age=36;
 // let = var
+const tax = .025;
 let age = "it's over 9000";
 let userName = "goku";
 let userName2 = "vegeta";
@@ -10,13 +11,20 @@ let password = "whatever";
 let searchbar = "search";
 let alert = "your on the wrong website choom"
 let hover = " Auto Zoom";
-const tax = .025;
 let youtubeIcon = "Take me Home";
 let quantity = 1-1000;
 let reccomended = "Algorithm";
 let videoHover = "autoplay";
+let videoHover2 = "play audio";
+let linkHover = "underline text";
+let adButton = "skip Ad";
+let refresh = "refresh items display randomly";
+let searchAuto = "auto complete";
+let imgAuto = "compare by color";
+let priceMatch = "compare with similiar prices";
 
-document.write("<h3> Name : " + userName2 +  vegetaDialogue +"</h3>")
+
+document.write("<h3> Name : " + userName2 + vegetaDialogue +"</h3>")
 
 
 
@@ -24,9 +32,3 @@ document.write("<h3> Name : " + userName2 +  vegetaDialogue +"</h3>")
 //console.log("the constant value is:" + tax);
 
 
-document.write("<p> Name :"+ username +" and the age is :" + age +"</p>")
-//the $ money sign is used to tel;l the compilier we are using Html symbols*
-document.write(`
-<p> Name: ${username}</p> 
-<p>age is: ${age}</p>
-`)

@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+   
+    
+}
+	
+    .btn{
+        margin-top: 10px;
+        text-align: center;
+        margin-right: 30px;
+        letter-spacing: 4px;
+    }
+
+  

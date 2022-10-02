@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Calculate the values you want</h1>
+    
+    <main>
+    
+        <h2> Instructions </h2>
+        <div class="table">
+             <ol id="horizontal-list">
+                <li> Click on the button to start!</li>
+                <li> enter two numbers in the prompts.</li>
+                <li> The results of the four operations will be displayed in the results zone!</li>
+                    <div class="btn">
+                <button onclick="calculator()"> Add</button> <!--onclick links an html tag to a js function-->
+                <button onclick="subtract()"> Subtract</button> 
+                <button onclick="multiply()"> Multiply</button> 
+                <button onclick="divide()"> Divide</button>
+                    </div>
+            </ol>
+        </div>
+        <div class="table" id="results">
+
+        </div>
+
+    </main>
+    
+    <script src="js.js">
+
+    </script>
+</body>
+</html>

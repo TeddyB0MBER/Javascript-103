@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header button {
+    font-weight: bold;
+    width: 75px;
+    border-radius: 5px;
+}
+header button:hover {
+    border: 1px solid blue;
+}
+table {
+    width: 50%;
+	margin: 0 auto;  
+    margin-top: 20px; 
+    border: 1px solid black; 
+    margin-bottom: 20px;
+}
+.table-data{
+    border: 1px solid black;
+}
+.option-bar {
+    text-align: center;
+}

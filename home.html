@@ -4,37 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="table.css">
     <title>Document</title>
 </head>
 <body>
-
-    <h1>Calculate the values you want</h1>
-    
+    <h1> Task Organizer</h1>
+    <header>
+        <input type="text" id="inputTask" placeholder="Enter your task">
+        <button onclick="addTask()">Add</button>
+    </header> 
     <main>
-    
-        <h2> Instructions </h2>
-        <div class="table">
-             <ol id="horizontal-list">
-                <li> Click on the button to start!</li>
-                <li> enter two numbers in the prompts.</li>
-                <li> The results of the four operations will be displayed in the results zone!</li>
-                    <div class="btn">
-                <button onclick="calculator()"> Add</button> <!--onclick links an html tag to a js function-->
-                <button onclick="subtract()"> Subtract</button> 
-                <button onclick="multiply()"> Multiply</button> 
-                <button onclick="divide()"> Divide</button>
-                    </div>
-            </ol>
-        </div>
-        <div class="table" id="results">
+        <table>
+            <tr>
+                
+                <td class="table-data">Task description 1</td>
+                <td class="table-data">Task description 2</td>
+                <td class="table-data">Task description 3</td>
+            </tr>
+            <tr> 
+               <td id="taskName-0"></td>
+               <td id="taskName-1"></td>
+               <td id="taskName-2"></td>
+            </tr>
+           
+        </table>
+        <h1>Task Organizer 2</h1>
+           <div class="option-bar">
+            <label>Choose TD :</label>
 
-        </div>
+                <select id="tdInput">
+            <option value="1">TD1</option>
+            <option value="2">TD2</option>
+            <option value="3">TD3</option>
+                </select>
+            
+                <input type="text" id="taskInput" placeholder="Enter your your task">
+                <button id="taskAdd" onclick="taskAdd()">Add</button>
+            </div>
 
-    </main>
-    
-    <script src="js.js">
+            <table>
+            <tr>
+                <td class="table-data">Task description 1</td>
+                <td class="table-data">Task description 2</td>
+                <td class="table-data">Task description 3</td>
+            </tr>
+            <tr> 
+                <td class="table-data" id="taskName1"></td>
+                <td class="table-data" id="taskName2"></td>
+                <td class="table-data" id="taskName3"></td>
+            </tr>
+            </table>
+                </main>
 
-    </script>
+    <script src="table.js"></script>
 </body>
 </html>

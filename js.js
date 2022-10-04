@@ -1,48 +1,34 @@
-function multiplythree(number){
-    let total = number * 3
-    console.log("Result: " + total)
-}
-function calculator(){
-    console.log(`calculating`);
-    let num1 = Number(prompt(`enter num1:`));
-    let num2 = Number(prompt(`enter num2:`));
+let yourName = "Tuong";
 
-    sum(num1,num2)
+if(confirm("are you " + yourName + "?")){
+    console.log("Hello" + yourName);
+}else{
+    console.log("Then what is your name?");
 }
-    
-function sum(a,b){
-       let total = a + b;
-       document.getElementById('results').innerHTML = `<P> ${a} + ${b} = ${total}</P>`;
-    }
-    
-function subtract(){
-        console.log(`calculating`);
-        let num1 = Number(prompt(`enter num1:`));
-        let num2 = Number(prompt(`enter num2:`));
+ 
+let operation =prompt("enter the operation +,-,*,/");
+ if(operation == "+"){
+    console.log("this is addition");
+}else{ console.log("this is not addition");}
 
-        minus(num1,num2);
-    }
-    function minus(a,b){
-        let total = a - b;
-        document.getElementById('results').innerHTML = `<P> ${a} - ${b} = ${total}</P>`;
-     }
-     function multiply(){
-        console.log(`calculating`);
-        let num1 = Number(prompt(`enter num1:`));
-        let num2 = Number(prompt(`enter num2:`));
-       times(num1,num2);
-    }
-    function times(a,b){
-        let total = a * b;
-       document.getElementById('results').innerHTML = `<P> ${a} * ${b} = ${total}</P>`;
-    }
-    function divide(){
-        console.log(`calculating`);
-        let num1 = Number(prompt(`enter num1:`));
-        let num2 = Number(prompt(`enter num2:`));
-       division(num1,num2);
-    }
-    function division(a,b){
-        let total = a / b;
-       document.getElementById('results').innerHTML = `<P> ${a} / ${b} = ${total}</P>`;
-    }
+let number = 99;
+if(number == 99){
+    console.log("the number is correct!");
+}
+// && = and(more specific) || = or (more general)
+let num1 = 1;
+let num2 = 2;
+let num3 = 3;
+let notTrue = false;
+
+if(num1 < num2 && num3 > num2) {
+    console.log("Num 1 is smaller then num 2, while num 3 is larger then num 2");
+}
+
+if (num1 == 1 || num2 == 1 || num3 == 1){
+    console.log( "num1 is 1, num2 is 1, num 3 is also 1");
+}
+
+if(!notTrue){
+    console.log( "notTrue is true,");
+}
